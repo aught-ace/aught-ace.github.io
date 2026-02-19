@@ -1,0 +1,41 @@
+// メインのスタイル
+
+html {
+    body {
+        background-color: #333;
+        color: #FFF;
+        font {
+            size: 14pt;
+            weight: normal;
+            family: sans-serif;
+        }
+        header {
+            img {
+                inline-size: 8rem;
+                block-size: auto;
+            }
+            h1 {
+                color: #933;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        main {
+            h2 {
+                color: #C66;
+            }
+            h3 {
+                color: #F99;
+            }
+            h2, h3 {
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        header, main {
+            inline-size: 100svmin;
+            margin: 0 auto;
+            background-color: #000;
+        }
+    }
+}
