@@ -8,17 +8,22 @@ html {
             family: sans-serif;
         }
         header {
-            img {
-                inline-size: 8rem;
-                block-size: auto;
-                margin: 0 auto;
-                display: block;
+            #site {
+                img {
+                    inline-size: 8rem;
+                    block-size: 8rem;
+                    vertical-align: middle;
+                }
+                span {
+                    color: #600;
+                    font-size: 3rem;
+                    vertical-align: middle;
+                }
             }
             h1 {
                 color: #933;
                 font-size: 2rem;
                 line-height: 1em;
-                text-align: center;
             }
         }
         main {
@@ -36,6 +41,11 @@ html {
                 list-style-type: square;
                 padding-inline-start: 1rem;
             }
+            img {
+                inline-size: 100%;
+                block-size: auto;
+                display: block;
+            }
         }
         header, main {
             inline-size: 100svmin;
@@ -51,6 +61,11 @@ html {
     padding: 0;
     margin: 0;
     line-height: 2em;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    text-decoration: none;
+    outline: none;
     font {
         size: 1em;
         weight: normal;
@@ -60,9 +75,4 @@ html {
         spacing: 0.25rem;
         break: break-all;
     }
-    letter-spacing: 0;
-    box-sizing: border-box;
-    touch-action: manipulation;
-    text-decoration: none;
-    outline: none;
 }
