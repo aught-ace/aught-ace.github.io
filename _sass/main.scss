@@ -3,7 +3,6 @@ html {
     body {
         background-color: #333;
         color: #FFF;
-        padding: 1rem;
         font {
             size: 14pt;
             weight: normal;
@@ -31,7 +30,7 @@ html {
             }
             h2, h3 {
                 font-size: 2rem;
-                text-align: center;
+                line-height: 1em;
             }
             ul {
                 list-style-type: square;
