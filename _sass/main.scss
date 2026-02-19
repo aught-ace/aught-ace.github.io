@@ -6,9 +6,8 @@ html {
             background-color: #F99;
             color: #600;
         }
-        font {
+        font: {
             size: 14pt;
-            weight: normal;
             family: sans-serif;
         }
         header {
@@ -84,12 +83,11 @@ html {
     touch-action: manipulation;
     text-decoration: none;
     outline: none;
-    font {
+    font: {
         size: 1em;
         weight: normal;
-        family: sans-serif;
     }
-    word {
+    word: {
         spacing: 0.25rem;
         break: break-all;
     }
