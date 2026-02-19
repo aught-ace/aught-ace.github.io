@@ -1,7 +1,9 @@
 html {
+    text-size-adjust: 100%;
     body {
         background-color: #333;
         color: #FFF;
+        padding: 1rem;
         font {
             size: 14pt;
             weight: normal;
@@ -11,6 +13,8 @@ html {
             img {
                 inline-size: 8rem;
                 block-size: auto;
+                margin: 0 auto;
+                display: block;
             }
             h1 {
                 color: #933;
@@ -29,11 +33,36 @@ html {
                 font-size: 2rem;
                 text-align: center;
             }
+            ul {
+                list-style-type: square;
+                padding-inline-start: 1rem;
+            }
         }
         header, main {
             inline-size: 100svmin;
             margin: 0 auto;
+            padding: 1rem;
             background-color: #000;
         }
     }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    font {
+        size: 1em;
+        weight: normal;
+        family: sans-serif;
+    }
+    word {
+        spacing: 0.25rem;
+        break: break-all;
+    }
+    letter-spacing: 0;
+    box-sizing: border-box;
+    touch-action: manipulation;
+    text-decoration: none;
+    outline: none;
 }
