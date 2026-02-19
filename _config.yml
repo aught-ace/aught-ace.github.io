@@ -1,3 +1,4 @@
 name: aughtAce
+theme: []
 sass:
-  style: compressed # 出力されるCSSを圧縮する設定
+  style: compressed
