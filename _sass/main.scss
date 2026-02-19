@@ -2,7 +2,6 @@ html {
     text-size-adjust: 100%;
     body {
         background-color: #600;
-        color: #FFF;
         font {
             size: 14pt;
             weight: normal;
@@ -41,7 +40,8 @@ html {
             inline-size: 100svmin;
             margin: 0 auto;
             padding: 1rem;
-            background-color: #000;
+            background-color: #FFF;
+            color: #000;
         }
     }
 }
