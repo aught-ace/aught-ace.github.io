@@ -2,12 +2,17 @@ html {
     text-size-adjust: 100%;
     body {
         background-color: #600;
+        a {
+            background-color: #F99;
+            color: #600;
+        }
         font {
             size: 14pt;
             weight: normal;
             family: sans-serif;
         }
         header {
+            padding: 1rem 1rem 0 1rem;
             #site {
                 img {
                     inline-size: 8rem;
@@ -27,6 +32,7 @@ html {
             }
         }
         main {
+            padding: 0 1rem;
             h2 {
                 color: #C66;
             }
@@ -50,9 +56,11 @@ html {
         header, main {
             inline-size: 100svmin;
             margin: 0 auto;
-            padding: 1rem;
             background-color: #FFF;
             color: #000;
+        }
+        footer {
+            padding: 0 1rem 1rem 1rem;
         }
     }
 }
