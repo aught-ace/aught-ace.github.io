@@ -1,6 +1,6 @@
 ---
 layout: default
-title: aughtAce
+title: ホーム
 ---
 
 ## プロフィール
