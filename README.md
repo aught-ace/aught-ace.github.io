@@ -1,2 +1,2 @@
 # aught-ace.github.io
-aughtAceのGithub Pages
+[aughtAce](https://aught-ace.github.io/)
